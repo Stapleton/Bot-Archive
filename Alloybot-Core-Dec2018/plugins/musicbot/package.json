@@ -1,0 +1,35 @@
+{
+  "name": "@alloybot/musicbot",
+  "version": "0.0.0",
+  "description": "Discord Musicbot module for Alloybot",
+  "main": "index.ts",
+  "dependencies": {
+    "sec-to-min": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "watch": "tsc -b --clean --watch tsconfig.json",
+    "build": "tsc -b --verbose tsconfig.json",
+    "clean": "tsc -b --clean tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlloybotDevTeam/discord-musicbot.git"
+  },
+  "keywords": [
+    "discord",
+    "music",
+    "bot",
+    "alloybot",
+    "module",
+    "youtube",
+    "voice",
+    "chat"
+  ],
+  "author": "Taylor Stapleton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlloybotDevTeam/discord-musicbot/issues"
+  },
+  "homepage": "https://github.com/AlloybotDevTeam/discord-musicbot#readme"
+}

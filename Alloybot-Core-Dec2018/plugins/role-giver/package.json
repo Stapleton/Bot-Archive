@@ -1,0 +1,11 @@
+{
+  "name": "@alloybot/role-giver",
+  "version": "0.0.0",
+  "description": "Role manager for Discord Servers",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Taylor Stapleton",
+  "license": "MIT"
+}

@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "lib": ["es2018"],
+    "target": "es2018",
+    "moduleResolution": "node",
+    "module": "none"
+  },
+  "files": ["index.ts", "lib/Invite.ts"]
+}

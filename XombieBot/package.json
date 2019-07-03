@@ -1,0 +1,26 @@
+{
+  "name": "xombiebot",
+  "version": "0.0.0",
+  "description": "Multipurpose bot for the Xombie clan to replace their multitude of bots with one.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stapleton/XombieBot.git"
+  },
+  "author": "Taylor Stapleton, Rubber, Ironivel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Stapleton/XombieBot/issues"
+  },
+  "homepage": "https://github.com/Stapleton/XombieBot#readme",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "dotenv": "^7.0.0",
+    "lodash-id": "^0.14.0",
+    "lowdb": "^1.0.0",
+    "typescript": "^3.3.3333"
+  }
+}

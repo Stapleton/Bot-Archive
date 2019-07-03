@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "lib": ["es2018"],
+    "target": "es2018",
+    "module": "none"
+  },
+  "files": ["core/index.ts", "core/lib/ConfigBuilder.ts", "core/lib/Util.ts", "core/lib/IFace.ts"]
+}

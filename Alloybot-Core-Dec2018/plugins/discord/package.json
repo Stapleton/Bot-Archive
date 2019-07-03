@@ -1,0 +1,35 @@
+{
+  "name": "@alloybot/discord",
+  "version": "0.0.0",
+  "description": "Discord connection module for Alloybot",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc -b --clean --watch tsconfig.json",
+    "build": "tsc -b --verbose tsconfig.json",
+    "clean": "tsc -b --clean tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlloybotDevTeam/discord.git"
+  },
+  "keywords": [
+    "alloybot",
+    "discord",
+    "connection",
+    "module",
+    "bot"
+  ],
+  "author": "Taylor Stapleton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlloybotDevTeam/discord/issues"
+  },
+  "homepage": "https://github.com/AlloybotDevTeam/discord#readme",
+  "dependencies": {
+    "bufferutil": "^4.0.1",
+    "discord-rpc": "^3.0.1",
+    "discord.js": "^11.4.2",
+    "node-opus": "^0.3.1",
+    "sodium": "^3.0.2"
+  }
+}

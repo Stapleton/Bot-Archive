@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "lib": ["esnext"],
+    "target": "esnext",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "declaration": true,
+    "declarationDir": "./typings/",
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./out/",
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "sourceRoot": "./src/"
+  },
+  "files": ["Tests.ts"]
+}
